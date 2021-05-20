@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background-color: black; */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Banner */
+.jumbotron {
+  background-image: url(../images/banner-bg.jpg);
+  background-size: cover;
+  height: 540px;
+}
+
+.jumbotron img {
+  margin-top: 18px;
+}
+
+.jumbotron .display-4 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  color: white;
+  margin-top: 150px;
+  font-weight: 500;
+}
+
+.jumbotron .lead {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+/* Jumbotron pada Pengalaman, Galeri, Youtube, dan Kontak */
+.jumbotron.banner {
+  background-image: url(../images/banner-bg.jpg);
+  background-size: cover;
+  height: 250px;
+  background-position: center;
+}
+
+.jumbotron.jumbotron.banner h1 {
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.profil {
+  border-radius: 6px;
+}
+
+/* Kontak */
+.icon {
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.btn-icon {
+  font-size: 24px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 90px;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  line-height: 90px;
+}
+
+.pengalaman {
+  text-align: justify;
+}

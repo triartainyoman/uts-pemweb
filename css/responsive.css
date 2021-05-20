@@ -1,0 +1,42 @@
+/* Desktop */
+@media (min-width: 992px) {
+  .container-contact {
+    min-height: 580px;
+  }
+  /* Navbar */
+  .navbar-brand,
+  .nav-link {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: white !important;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    border-bottom: 3px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    width: 50%;
+  }
+
+  /* Banner */
+  .jumbotron {
+    margin-top: -70px;
+    height: 640px;
+  }
+}
+/* Tablet */
+@media (max-width: 992px) {
+  .banner-img {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (min-width: 576px) {
+}
